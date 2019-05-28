@@ -1,12 +1,12 @@
 # USEsum
-USEsum is an extractive and abstractive summarisation system that can generate short summaries from user review corpora. 
+USEsum is an extractive and abstractive summarisation system that can generate short summaries from reviews corpora. 
 This an adaptation of OpenNMT project, https://github.com/OpenNMT/OpenNMT-py.
 
 # Installation
 Please run pip install -r requirements.txt
 
-To perform end to end predictions and preprocess datasets one need Universal Sentence Encoder running as a sever with model v2, using port 8501. 
-We used the Docker container  for serving Universal Sentence Encoder (USE), it's available in the TensorHubServing folder. Please follow Readme instruction in the folder to use the USE server in this setting.
+To perform end to end predictions and preprocess datasets one need Universal Sentence Encoder running as a sever, with model v2, using port 8501. 
+We used the Docker container for serving Universal Sentence Encoder (USE), it's available in the TensorHubServing folder. Please follow Readme instruction in the folder to use the USE server in this setting.
 
 # Training custom models
 
