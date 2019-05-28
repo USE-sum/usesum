@@ -47,7 +47,6 @@ Please run
 * python server.py
 * TensorHubServing/docker-compose up
 * python use_sum.py  -t extractive
-The default parameters match default OpenNMT server settings and attached dockerized USE server. Input file should contain document to summarize. Each document should be represented by one line containig all its sentences. For example it could be a file: https://github.com/useg-data/useg-data/blob/master/data/src-test-txt.txt
 
 # Run end-to-end summarization
 Please run :
@@ -55,4 +54,9 @@ Please run :
 * python server.py
 * TensorHubServing/docker-compose up
 * python use_sum.py
+
+##For both end-to-end and extractive sumamrization:
+The default parameters of the use_sum script match default OpenNMT server settings and attached dockerized USE server. 
+Input file should contain document to summarize. Each document should be represented by one line containig all its sentences. 
+For example: https://github.com/useg-data/useg-data/blob/master/data/src-test-txt.txt
 
