@@ -1,0 +1,39 @@
+{
+    "models_root": "./available_models",
+    "models": [
+        {
+            "model": "extractive_USEsum.pt",
+	        "id": 0,
+            "timeout": -1,
+            "on_timeout": "unload",
+            "model_root": "../models",
+            "opt": {
+                "batch_size": 1,
+                "beam_size": 1,
+                "decoder_type": "vecdif",
+                "data_type": "vector",
+                "use_host": "localhost",
+                "use_port": "8501",
+                "use_path": "v1/models/universal_encoder:predict",
+                "sentence_separator": "||"
+            }
+        },
+        {
+            "model": "_step_140250.pt",
+	        "id": 1,
+            "timeout": -1,
+            "on_timeout": "unload",
+            "model_root": "models/",
+            "opt": {
+                "batch_size": 1,
+                "beam_size": 1,
+                "data_type": "text",
+                "sentence_separator": "",
+                "block_ngram_repeat": 4,
+                "beam_size": 15,
+                "batch_size": 1,
+                "n_best":10
+            }
+        }
+    ]
+}
