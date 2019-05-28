@@ -1,6 +1,3 @@
-Warning: 
-The inferencing is in preparation. It will be ready within a couple of days. Currently once can train and test the extractive summarization vector prediction using configuration described in Evaluation. 
-
 # USEsum
 USEsum is an extractive and abstractive summarisation system that can generate short summaries from user review corpora. 
 This an adaptation of OpenNMT project, https://github.com/OpenNMT/OpenNMT-py.
