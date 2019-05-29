@@ -105,8 +105,8 @@ def build_save_in_shards_using_shards_size(src_corpus, tgt_corpus, fields,
     The reason we do this is to avoid taking up too much memory due
     to sucking in a huge corpus file.
     """
-    src_data = np.load(src_corpus)
-    tgt_data = np.load(tgt_corpus)
+    src_data = np.load(src_corpus, allow_pickle=True)
+    tgt_data = np.load(tgt_corpus, allow_pickle=True)
 
     data_len = src_data.shape[0]
     num_shards = int(data_len / opt.shard_size) +1
