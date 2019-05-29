@@ -8,4 +8,3 @@ future
 scipy==1.2.0
 spacy==2.1.4
 numpy==1.16.3
-en-core-web-sm==2.0.0
