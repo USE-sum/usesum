@@ -1,5 +1,5 @@
 # USEsum
-USEsum is an extractive and abstractive summarisation system that can generate short summaries from reviews corpora. This code supports the paper [Sentence Embeddings as an intermediate target in end-to-end summarisation] (https://github.com/USE-sum/usesum/blob/master/Sentence_Embeddings_as_an_intermediate_target_in_end_to_end_summarisation_MZ_SM.pdf) .
+USEsum is an extractive and abstractive summarisation system that can generate short summaries from reviews corpora. This code supports the paper [Sentence Embeddings as an intermediate target in end-to-end summarisation](https://github.com/USE-sum/usesum/blob/master/Sentence_Embeddings_as_an_intermediate_target_in_end_to_end_summarisation_MZ_SM.pdf) .
 
 
 The uniquness of this approach is that it can summarize hundreds of sentences, while most systems summarize articles containing up several dozens of sentences. 
