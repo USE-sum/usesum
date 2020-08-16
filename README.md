@@ -1,11 +1,11 @@
 # USEsum
-USEsum is an extractive and abstractive summarisation system that can generate short summaries from reviews corpora. 
+USEsum is an extractive and abstractive summarisation system that can generate short summaries from reviews corpora. This code supports the paper [Sentence Embeddings as an intermediate target in end-to-end summarisation] (https://github.com/USE-sum/usesum/blob/master/Sentence_Embeddings_as_an_intermediate_target_in_end_to_end_summarisation_MZ_SM.pdf) .
 
 
 The uniquness of this approach is that it can summarize hundreds of sentences, while most systems summarize articles containing up several dozens of sentences. 
 
 
-This an adaptation of [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) , most of the code in this repository is an old version of OpenNMT. The main contribution is [here] (https://github.com/USE-sum/usesum/blob/master/onmt/decoders/vecdiff.py).
+This an adaptation of [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) , most of the code in this repository is an old version of OpenNMT. The main contribution is [in this script](https://github.com/USE-sum/usesum/blob/master/onmt/decoders/vecdiff.py) .
 
 # Installation
 Please run pip install -r requirements.txt
@@ -41,8 +41,9 @@ python translate.py -model models/extractive_USEsum.pt -src data/sample/src-test
 
 # Pretrained models
 
-The abstractive model is available here: https://s3-eu-west-1.amazonaws.com/use-sum-abstractive-model/_step_140250.pt
-The extractive model is available here: https://s3-eu-west-1.amazonaws.com/use-sum-abstractive-model/extractive_USEsum.pt
+The abstractive model is available (here)[https://s3-eu-west-1.amazonaws.com/use-sum-abstractive-model/_step_140250.pt] 
+
+The extractive model is available (here)[https://s3-eu-west-1.amazonaws.com/use-sum-abstractive-model/extractive_USEsum.pt] 
 
 
 # Run extractive summarization
@@ -62,5 +63,5 @@ Please run :
 ## For both end-to-end and extractive summarization:
 The default parameters of the use_sum script match default OpenNMT server settings and attached dockerized USE server. 
 Input file should contain document to summarize. Each document should be represented by one line containig all its sentences. 
-For example: https://github.com/useg-data/useg-data/blob/master/data/src-test-txt.txt
+For [example](https://github.com/useg-data/useg-data/blob/master/data/src-test-txt.txt) 
 
