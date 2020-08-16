@@ -8,4 +8,4 @@ future
 scipy==1.2.0
 spacy==2.1.4
 numpy==1.16
-nltk==3.2.5
+nltk==3.5
